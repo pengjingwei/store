@@ -7,7 +7,7 @@ funds = 0  # 账户初始资金
 num = input("请填写充值资金：")
 count = int(num)
 if count > 1000:
-    funds = count + count // 1000 * 100
+    funds = funds + count + count // 1000 * 100
 else:
     funds += count
 # print(funds)
@@ -42,7 +42,7 @@ while funds >= 500:  # 充值资金，资金大于等于500才能进入游戏
         num = input("请填写充值资金：")
         count = int(num)
         if count > 1000:
-            funds = count + count // 1000 * 100
+            funds = funds + count + count // 1000 * 100
         else:
             funds += count
     else:
