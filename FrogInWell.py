@@ -2,5 +2,8 @@
 wellH = 20
 day = 3
 night = 2
-days = wellH / (day - night)
+days=0
+while (wellH-3) > 0:
+    wellH -= 1
+    days += 1
 print("需要{0:.2f}天".format(days))
