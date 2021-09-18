@@ -225,22 +225,19 @@ def getInqu():
 
 
 while True:
-    try:
-        begin = int(input("请选择业务："))
-        if begin == 1:
-            adduser()
-        elif begin == 2:
-            getSaveIn()
-        elif begin == 3:
-            getWithdraw()
-        elif begin == 4:
-            getTrans()
-        elif begin == 5:
-            getInqu()
-        elif begin == 6:
-            break
-        else:
-            print("请输入0~6之间的数字！")
-            continue
-    except:
-        print("输入错误,请重新输入！")
+    begin = input("请选择业务：")
+    if begin == "1":
+        adduser()
+    elif begin == "2":
+        getSaveIn()
+    elif begin == "3":
+        getWithdraw()
+    elif begin == "4":
+        getTrans()
+    elif begin == "5":
+        getInqu()
+    elif begin == "6":
+        break
+    else:
+        print("请输入0~6之间的数字！")
+        continue
