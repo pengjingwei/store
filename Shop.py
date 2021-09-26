@@ -75,8 +75,3 @@ if username in users:
         print("密码输入错误！")
 else:
     print("用户不存在！请先注册！")
-
-
-
-
-
