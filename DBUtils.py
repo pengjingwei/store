@@ -4,7 +4,11 @@ import pymysql
 host = "localhost"
 user = "root"
 password = "pjw9285851"
-database = "bank"
+# database = "bank"
+database = "cloth"
+
+
+# def database(host, user, password, database):
 
 
 def updata(sql, param):
