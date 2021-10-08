@@ -4,7 +4,7 @@ import DBUtils
 
 sql = "select * from t_employees"
 param = []
-db = DBUtils.select(sql,param)
+db = DBUtils.select(sql, param)
 lt = []
 # print(db)
 wb = xlwt.Workbook()
