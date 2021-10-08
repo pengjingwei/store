@@ -4,12 +4,11 @@ import pymysql
 host = "localhost"
 user = "root"
 password = "pjw9285851"
-# database = "bank"
-database = "cloth"
+database = "bank"
 
 
-# def database(host, user, password, database):
-
+# database = "cloth"
+# database = "company"
 
 def updata(sql, param):
     con = pymysql.Connect(host=host, user=user, password=password, database=database)
